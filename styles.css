@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    flex: 1;
 }
 
 .header {
@@ -34,6 +35,26 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+}
+
+.image-cards {
+    display: flex;
+}
+
+.cute-sprays {
+    display: flex;
+}
+
+.quote-section {
+    display: flex;
+}
+
+.action-section {
+    display: flex
 }
 
 .footer {
