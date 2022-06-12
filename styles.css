@@ -37,7 +37,7 @@ a {
     color: #E5E7EB;
 }
 .middle {
-    height: calc(100vh);
+    /* height: calc(100vh); */
     display: flex;
     flex-direction: column;
 }
@@ -48,6 +48,8 @@ a {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     align-items: center;
     justify-content: center;
 
@@ -56,10 +58,12 @@ a {
 .hero-left {
     display: flex;
     flex-direction: column;
+    max-width: 420px;
 }
 
 .hero-image {
     text-align: center;
+    padding-left: 60px;
 }
 
 .hero-info {
