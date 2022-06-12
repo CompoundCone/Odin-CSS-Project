@@ -83,6 +83,11 @@ button {
     margin-top: 8px;
 }
 
+h2 {
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
 
 
 .hero-title {
@@ -101,6 +106,8 @@ button {
     flex-direction: column;
     height: 25%;
     align-items: center;
+    padding-top: 21px;
+    padding-bottom: 36px;
 }
 
 .cute-sprays {
@@ -108,7 +115,7 @@ button {
     justify-content: center;
     text-align: center;
     gap: 35px;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .spray-info {
@@ -129,6 +136,7 @@ button {
 .quote {
     font-size: 36px;
     color: #1F2937;
+    padding-top: 103px;
 }
 
 .quote-credit  {
@@ -136,6 +144,7 @@ button {
     font-size: 28px;
     font-weight: bold;
     padding-right: 63px;
+    padding-bottom: 103px;
 }
 
 .action-section {
