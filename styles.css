@@ -92,16 +92,27 @@ button {
 }
 .image-cards {
     display: flex;
+    flex-direction: column;
     height: 25%;
+    align-items: center;
 }
 
 .cute-sprays {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
 }
+
+.spray-info {
+    max-width: 300px;
+    flex-shrink: 1;
+  }
 
 .quote-section {
     display: flex;
     height: 25%;
+    background-color: #e5e7eb;
 }
 
 .action-section {
@@ -116,4 +127,9 @@ button {
     color: #E5E7EB;
     padding: 23px;
     flex-shrink: 0;
+}
+
+.image {
+    border: 5px solid #3882f6;
+    border-radius: 8px;
 }
