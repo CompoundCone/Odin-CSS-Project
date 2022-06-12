@@ -106,7 +106,6 @@ button {
 
 .spray-info {
     max-width: 300px;
-    flex-shrink: 1;
   }
 
 .quote-section {
@@ -132,4 +131,6 @@ button {
 .image {
     border: 5px solid #3882f6;
     border-radius: 8px;
+    max-width: 100%;
+    max-height: 100%;
 }
