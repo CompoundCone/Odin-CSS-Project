@@ -20,7 +20,8 @@ body {
 
 .header-logo {
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
@@ -48,22 +49,23 @@ a {
     background-color: #1F2937;
     padding-left: 200px;
     padding-right: 200px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     align-items: center;
     justify-content: center;
+    gap: 35px;
 
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    max-width: 420px;
+    max-width: 468px;
 }
 
 .hero-image {
     text-align: center;
-    padding-left: 60px;
+    /* padding-left: 60px; */
 }
 
 .hero-info {
