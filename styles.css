@@ -136,7 +136,7 @@ h2 {
 .quote {
     font-size: 36px;
     color: #1F2937;
-    padding-top: 103px;
+    padding-top: 82px;
 }
 
 .quote-credit  {
@@ -144,14 +144,14 @@ h2 {
     font-size: 28px;
     font-weight: bold;
     padding-right: 63px;
-    padding-bottom: 103px;
+    padding-bottom: 82px;
 }
 
 .action-section {
     padding-left: 300px;
     padding-right: 300px;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .action-box {
@@ -164,6 +164,9 @@ h2 {
     padding-right: 160px;
     padding-top: 40px;
     padding-bottom: 40px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+
 }
 
 .footer {
@@ -192,4 +195,11 @@ h3 {
 
 h4 {
     margin: 0;
+}
+
+.bottom-button {
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    color: white;
+    font-weight: 800;
 }
