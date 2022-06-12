@@ -110,8 +110,25 @@ button {
 
 .quote-section {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 25%;
-    background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
+    /* background-color: #e5e7eb; */
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-credit  {
+    align-self: flex-end;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 63px;
 }
 
 .action-section {
